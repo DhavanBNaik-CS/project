@@ -58,8 +58,8 @@
        }
       ?>
     <form action="" method="post" enctype ="multipart/form-data">
-
-    <header>BMS DISCUSS</header>
+    <a href=home.php>
+    <header>BMS DISCUSS</header></a>
     <input type="radio" name="slider" checked id="dash">
     <input type="radio" name="slider" id="profile">
     <input type="radio" name="slider" id="sett">
@@ -180,7 +180,7 @@
       </div>
       <div class="content content-5">
         <div class="title">Do You wish to sign out?</div>
-        <button class ="btn">yes</button>&nbsp<button class ="btn">NO</button>
+        <a href="home.php?logout=<?php echo $user_id; ?>" class="btn">yes</a>&nbsp<a href="home.php" class="btn">no</a>
       </div>
     </section>
 
