@@ -1,17 +1,3 @@
-step 1 :- 
-create databse in phpmyadmin
-
-step 2 :-
-
-click on create table and then select sql on the top and copy and paste below code in the query.
-
-
-
-
-
-
-
-
 
 CREATE TABLE `user_form` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
@@ -19,5 +5,8 @@ CREATE TABLE `user_form` (
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
+  `usn` varchar(100) NOT NULL,
+  `dept` varchar(100) NOT NULL,
+  `sem` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
