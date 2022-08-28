@@ -225,3 +225,12 @@ text-align: justify;
    text-transform: uppercase;
 
 }
+
+
+.wrapper a:link {
+  text-decoration: none;
+
+}
+.wrapper a{
+  color: black;
+}
